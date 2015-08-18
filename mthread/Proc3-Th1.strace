@@ -1,0 +1,7 @@
+sys_write (1, "Fab_Shell_started", 17, -1) = 17
+sys_read (0, NULL, 64, -1) = 2
+WAKEUP
+sys_exec ("bin/../nop", "nop", NULL, 0, 1, 2, -1, 0, 0) = -1
+sys_read (0, NULL, 64, -1) = 2
+sys_exec ("bin/master", "ls", NULL, 0, 1, 2, -1, 0, 0) = 4
+sys_exit (0, 0)

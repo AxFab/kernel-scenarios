@@ -1,0 +1,8 @@
+  This is the Hardware trace file
+
+S -- Always start by a call to the scheduler
+S
+C
+C
+C
+T

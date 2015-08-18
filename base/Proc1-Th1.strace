@@ -1,0 +1,11 @@
+sys_write (1, "Hello_Master_v0.1", 17, -1) = 17
+sys_write (1, "Login_::_", 9, -1) = 9
+sys_read (0, NULL, 128, -1) = 4
+sys_write (1, "Welcome_XXX\n", 12, -1) = 12
+sys_exec ("bin/master", "etc/nginx.d_start", NULL, -1, -1, -1, -1, 0, -1) = 2
+sys_exec ("bin/master", "bin/sh_-i", "Fab", -1, -1, -1, -1, 0, 0) = 3
+sys_write (1, "!", 1, -1) = 1
+sys_wait (4, 3, -1) = -1
+sys_write (1, "!", 1, -1) = 1
+sys_write (1, "!", 1, -1) = 1
+sys_exit (0, 0)

@@ -1,0 +1,11 @@
+  This is the Hardware trace file for basic testing
+
+    This test is base on `read/write/exec/exit'
+    with the only help of the keyboard
+
+S -- Always start by a call to the scheduler
+S
+C
+C
+C
+T

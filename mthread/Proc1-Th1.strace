@@ -1,0 +1,8 @@
+sys_write (1, "Hello_Master_v0.1", 17, -1) = 17
+sys_exec ("bin/master", "etc/nginx.d_start", NULL, -1, -1, -1, -1, 0, -1) = 2
+sys_exec ("bin/master", "bin/sh_-i", "Fab", -1, -1, -1, -1, 0, 0) = 3
+sys_start (NULL, 0x2000000, 0) = 0;
+sys_write (1, "Login_::_", 9, -1) = 9
+sys_read (0, NULL, 128, -1) = 2
+WAKEUP
+sys_wait (0, 0, 0x7fffffff) = 0

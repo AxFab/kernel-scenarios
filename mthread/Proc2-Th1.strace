@@ -1,0 +1,2 @@
+sys_write (1, "nginx_started", 13, -1) = 13
+sys_exit (0, 0)

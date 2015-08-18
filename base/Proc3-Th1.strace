@@ -1,0 +1,4 @@
+sys_write (1, "Fab_Shell_started", 17, -1) = 17
+sys_read (0, NULL, 64, -1) = 3
+WAKEUP
+sys_exit (0, 0)

@@ -1,0 +1,10 @@
+# Shell program
+# Promt for commands, first don't work next one do!
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+# The standard library need to map a first alloc arena
+sys_mmap (-1, 0, 0x10000, 0, 0x1276) = +
+# The main print greetings and look for some pwd
+sys_write (1, "Color", 5, -1) = 5
+sys_write (1, "DATA", 4, -1) = 4
+sys_exit (0, 0)

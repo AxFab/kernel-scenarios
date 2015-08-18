@@ -1,0 +1,2 @@
+sys_write (1, "Ls_second_thread", 16, -1) = 16
+sys_stop ()

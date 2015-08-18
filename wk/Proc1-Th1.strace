@@ -1,0 +1,2 @@
+sys_exec ("bin/sh", "etc/nginx.d_start", NULL, -1, -1, -1, -1, 0, -1) = 2
+sys_exit (0, 0)
