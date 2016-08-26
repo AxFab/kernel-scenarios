@@ -1,125 +1,39 @@
   This is the Hardware trace file
 
-S -- Always start by a call to the scheduler
-S
-C
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-C
-H KEY_PRESS ('F')
-S
-H KEY_PRESS ('a')
-H KEY_PRESS ('b')
-H KEY_PRESS ('i')
-H KEY_PRESS ('e')
-S
-H KEY_PRESS ('n')
-H KEY_PRESS ('\n')
-S
-C
-C
-C
-C
-C
-C
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-C
-C
-S
-C
-C
-C
-C
-C
-S
-S
-S
-S
-H KEY_PRESS ('b')
-S
-H KEY_PRESS ('i')
-H KEY_PRESS ('n')
-S
-H KEY_PRESS ('/')
-H KEY_PRESS ('l')
-S
-H KEY_PRESS ('s')
-S
-H KEY_PRESS ('\n')
-S
-C
-C
-C
-S
-S
-C
-S
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-C
-H KEY_PRESS ('b')
-S
-H KEY_PRESS ('i')
-H KEY_PRESS ('n')
-H KEY_PRESS ('/')
-H KEY_PRESS ('c')
-S
-H KEY_PRESS ('o')
-H KEY_PRESS ('l')
-H KEY_PRESS ('o')
-H KEY_PRESS ('r')
-S
-H KEY_PRESS ('\n')
-S
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-S
-C
-C
-C
-T
+25 KEY_PRESS ('F')
+
+27 KEY_PRESS ('a')
+27 KEY_PRESS ('b')
+29 KEY_PRESS ('i')
+35 KEY_PRESS ('e')
+
+41 KEY_PRESS ('n')
+48 KEY_PRESS ('\n')
+
+
+
+120 KEY_PRESS ('b')
+121 KEY_PRESS ('i')
+122 KEY_PRESS ('n')
+125 KEY_PRESS ('/')
+125 KEY_PRESS ('l')
+128 KEY_PRESS ('s')
+128 KEY_PRESS ('\n')
+
+
+
+
+
+250 KEY_PRESS ('b')
+290 KEY_PRESS ('i')
+290 KEY_PRESS ('n')
+290 KEY_PRESS ('/')
+290 KEY_PRESS ('c')
+290 KEY_PRESS ('o')
+290 KEY_PRESS ('l')
+290 KEY_PRESS ('o')
+290 KEY_PRESS ('r')
+290 KEY_PRESS ('\n')
+
+
+800 TIMEOUT

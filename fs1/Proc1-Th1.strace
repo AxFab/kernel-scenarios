@@ -1,2 +1,4 @@
 sys_write (1, "Hello", 5, -1) = 5
 sys_open ("/mnt/UNNAMED/testing", -1, 64, 0200700) = 3
+sys_close (3) = 0
+sys_exit (0, 0)

@@ -3,56 +3,13 @@
     This test is base on `read/write/exec/exit'
     with the only help of the keyboard
 
-S -- Always start by a call to the scheduler
-S
-S -- Working good
-C -- Init first call
-S
-C
+2  KEY_PRESS ('F') 
+2  KEY_PRESS ('a')
+2  KEY_PRESS ('b')
+2  KEY_PRESS ('\n')
 
-# We start writing before the thread start to read 
-H KEY_PRESS ('F') 
-S
-H KEY_PRESS ('a')
-S
-H KEY_PRESS ('b')
-H KEY_PRESS ('\n')
-C
-C
-S
+100  KEY_PRESS ('l')
+105 KEY_PRESS ('s')
+108 KEY_PRESS ('\n')
 
-C -- Thread 1 sys_exec
-S
-S
-S
-C -- Thread 2 sys_write
-S
-C -- Thread 1 sys_exec
-S
-S
-S
-C -- Thread 1
-S
-C -- Thread 2 -- sys_exec
-S
-C -- THread 1 !
-S
-C
-C -- THread 3 READ
-S
-C
-S
-H KEY_PRESS ('l')
-H KEY_PRESS ('s')
-C
-S
-C
-S
-H KEY_PRESS ('\n')
-S
-C -- Thread 3 WAKE UP
-S
-C
-S -- No task !
-S -- No task !
-T
+500 TIMEOUT

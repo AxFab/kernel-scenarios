@@ -1,88 +1,11 @@
   This is the Hardware trace file for multi-threading testing
 
-S
-C
-S
-S
-C
-S
-C
-S
-S
-C
-S
-C
-S
-S
-C -- Thread 1 sys_start
-S
-C
-S
-S
-C
-S
-C -- Thread 3 READ
-S
-S
-C
-S
-S
-S
-H KEY_PRESS ('N')
-H KEY_PRESS ('\n')
-S
-S
-C
-S
-C
-S
-S
-S
-C
-S
-H KEY_PRESS ('M')
-H KEY_PRESS ('\n')
-H KEY_PRESS ('F')
-H KEY_PRESS ('\n')
-C Write M2. #1
-S
-C
-S
-C
-S
-C Th 3 sys_exec nop
-C
-S
-C Th 3 sys_exec ls
-S
-C
-C
-C
-S
-S
-C - sys_write ()
-S
-C 
-C 
-C 
-C 
-S
-C 
-C 
-S
-C
-S
-C
-C - open master
-S
-S
-C
-C - 7 sys_close
-C - 7 sys_open
-C - 7 sys_stop
-C - 4 sys_exit
-S
-S
-S
-S
-t1
+32   KEY_PRESS ('N')
+32  KEY_PRESS ('\n')
+
+50  KEY_PRESS ('M')
+50  KEY_PRESS ('\n')
+50  KEY_PRESS ('F')
+52  KEY_PRESS ('\n')
+
+8000 TIMEOUT
